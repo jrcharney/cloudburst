@@ -1,0 +1,6 @@
+[
+	{ "key" : "ADV",  "color": "green",  "value": "Advisory" },
+	{ "key" : "WCH",  "color": "yellow", "value": "Watch" },
+	{ "key" : "WRN",  "color": "red",    "value": "Warning" },
+	{ "key" : "TEST", "color": "none",   "value": "Test" }
+]

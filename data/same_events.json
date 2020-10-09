@@ -1,0 +1,584 @@
+[
+	{ 
+		"key": "ADR", "level" : "ADV", "name": "Administrative message", "category": "S", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "AB"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "AVA", "level" : "WCH", "name": "Avalanche watch", "category": "A", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "AVW", "level" : "WRN", "name": "Avalanche warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "BLU", "level" : "WRN", "name": "Blue alert", "category": "W", 
+		"description": "Issued whenever a law enforcement officer is injured or killed, missing in connection with his or her official duties, or there is an imminent and credible threat to cause death or serious injur to law enforcement officers.",
+		"notes": "There are several alerts like this including LAE, LEW, SPW. It likely won't be used, more so since the bill that proposed it was pandering to a law enforcement lobby.", 
+		"support": [ { "country": "US", "type" : "O3"}, {"country": "CA", "type" : "NI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "BZW", "level" : "WRN", "name": "Blizzard Warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "CI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "CAE", "level" : "ADV", "name": "Child abduction emergency", "category": "E", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "CDW", "level" : "WRN", "name": "Civil danger warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "CEM", "level" : "WRN", "name": "Civil emergency message", "category": "W", 
+		"description": "",
+		"notes": "TODO: Why is this not an S?", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "CFA", "level" : "WCH", "name": "Coastal flood watch", "category": "A", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "CFW", "level" : "WRN", "name": "Coastal flood warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "DMO", "level" : "TEST", "name": "Demonstration Message", "category": "T", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "AB"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "DSW", "level" : "WRN", "name": "Dust storm warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "CI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "EAN", "level" : "WRN", "name": "Emergency action notification", "category": "W", 
+		"description": "Begins a nationwide EAS activation.",
+		"notes": "Not implemented on most NOAA Weather Radio stations.", 
+		"support": [ { "country": "US", "type" : "M"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "EAT", "level" : "WRN", "name": "Emergency action termination", "category": "W", 
+		"description": "Previously ended a nationwide EAS activation",
+		"notes": "The FCC in 2012 modified protocol for national EAS activations. EANs are now treated as any ohter EAS alert (except that it is mandatory to air), eliminating the need for EATs, the the FCC removed it from operation.", 
+		"support": [ { "country": "US", "type" : "NI"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "EQW", "level" : "WRN", "name": "Earthquake warning", "category": "W", 
+		"description": "",
+		"notes": "Referred to as 'Alerta Sísmica' in Mexico as part of the Mexican Seismic Alert System (a.k.a. SASMEX).", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "CI" } ]
+	},
+	{ 
+		"key": "EVI", "level" : "WRN", "name": "Evacuation immediate", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "EWW", "level" : "WRN", "name": "Extreme wind warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O3"}, {"country": "CA", "type" : "NI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "FFA", "level" : "WCH", "name": "Flash flood watch", "category": "A", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "FFS", "level" : "ADV", "name": "Flash flood statement", "category": "S", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "FFW", "level" : "WRN", "name": "Flash flood warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "FLA", "level" : "WCH", "name": "Flood watch", "category": "A", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "FLS", "level" : "ADV", "name": "Flood statement", "category": "S", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "FLW", "level" : "WRN", "name": "Flood warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "FRW", "level" : "WRN", "name": "Fire warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "FSW", "level" : "WRN", "name": "Flash freeze warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "NI"}, {"country": "CA", "type" : "CI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "FZW", "level" : "WRN", "name": "Freeze warning", "category": "W", 
+		"description": "",
+		"notes": "In Canada, while the CEA standard list FZW as a 'Freeze warning', Environment Canada refers to it as a 'Frost warning'. However, it will still be displayed as a 'Freeze warning' on receivers that are compliant to the CEA standard.", 
+		"support": [ { "country": "US", "type" : "NI"}, {"country": "CA", "type" : "CI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "HLS", "level" : "ADV", "name": "Hurricane local statement", "category": "S", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "TS" } ]
+	},
+	{ 
+		"key": "HMW", "level" : "WRN", "name": "Hazardous material warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "HUA", "level" : "WCH", "name": "Hurricane watch", "category": "A", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "CI"}, {"country": "MX", "type" : "TS" } ]
+	},
+	{ 
+		"key": "HUW", "level" : "WRN", "name": "Hurricane warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "CI"}, {"country": "MX", "type" : "TS" } ]
+	},
+	{ 
+		"key": "HWA", "level" : "WCH", "name": "High wind watch", "category": "A", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "HWW", "level" : "WRN", "name": "High wind warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "CI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "LAE", "level" : "ADV", "name": "Local area emergency", "category": "E", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "LEW", "level" : "WRN", "name": "Law enforcement warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "NAT", "level" : "TEST", "name": "National audible test", "category": "T", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "NI"}, {"country": "CA", "type" : "AB"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "NIC", "level" : "ADV", "name": "National Information Center statement", "category": "S", 
+		"description": "Used to follow up an EAN",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "M"}, {"country": "CA", "type" : "AB"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "NMN", "level" : "ADV", "name": "Network message notification", "category": "S", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "AB"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "NPT", "level" : "TEST", "name": "National periodic test", "category": "T", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "M"}, {"country": "CA", "type" : "AB"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "NST", "level" : "TEST", "name": "National silent test", "category": "T", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "NI"}, {"country": "CA", "type" : "AB"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "NUW", "level" : "WRN", "name": "Nuclear power plant warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "RHW", "level" : "WRN", "name": "Radiological hazard warning", "category": "NI", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "RMT", "level" : "TEST", "name": "Required monthly test", "category": "T", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "M"}, {"country": "CA", "type" : "RT"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "RWT", "level" : "TEST", "name": "Required weekly test", "category": "T", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "M"}, {"country": "CA", "type" : "RT"}, {"country": "MX", "type" : "CI" } ]
+	},
+	{ 
+		"key": "SMW", "level" : "WRN", "name": "Special marine warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "TS"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "SPS", "level" : "ADV", "name": "Special weather statement", "category": "S", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "SPW", "level" : "WRN", "name": "Shelter in place warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "SQW", "level" : "WRN", "name": "Snowsquall warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "CI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "SSA", "level" : "WCH", "name": "Storm surge watch", "category": "A", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O3"}, {"country": "CA", "type" : "NI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "SSW", "level" : "WRN", "name": "Storm surge warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O3"}, {"country": "CA", "type" : "NI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "SVA", "level" : "WCH", "name": "Severe thunderstorm watch", "category": "A", 
+		"description": "",
+		"notes": "Enable this by default", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "CI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "SVR", "level" : "WRN", "name": "Severe thunderstorm warning", "category": "W", 
+		"description": "",
+		"notes": "Enable this by default", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "CI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "SVS", "level" : "ADV", "name": "Severe weather statement", "category": "S", 
+		"description": "",
+		"notes": "TODO: How should this be used?", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "TS"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "TOA", "level" : "WCH", "name": "Tornado watch", "category": "A", 
+		"description": "",
+		"notes": "Enable this by default", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "CI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "TOE", "level" : "ADV", "name": "9-1-1 Telephone outage emergency", "category": "E", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "TOR", "level" : "WRN", "name": "Tornado warning", "category": "W", 
+		"description": "",
+		"notes": "Enable this by default. This should not be disabled.", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "CI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "TRA", "level" : "WCH", "name": "Tropical storm watch", "category": "A", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "CI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "TRW", "level" : "WRN", "name": "Tropical storm warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "CI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "TSA", "level" : "WCH", "name": "Tsunami watch", "category": "A", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "TS"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "TSW", "level" : "WRN", "name": "Tsunami warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "TS"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "VOW", "level" : "WRN", "name": "Volcano warning", "category": "W", 
+		"description": "",
+		"notes": "Referred to as 'Alerta Volcánica' in Mexico as part of the Mexican Seismic Alert System (a.k.a. SASMEX).", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "CI" } ]
+	},
+	{ 
+		"key": "WSA", "level" : "WCH", "name": "Winter storm watch", "category": "A", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "CI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "WSW", "level" : "WRN", "name": "Winter storm warning", "category": "W", 
+		"description": "",
+		"notes": "Environment canada additionally uses WSW event code to refere to any of the following weather condtions: Blowing snow warning, Freezing drizzle warning, Freezing rain warning, Showfall warning, Snow squall warning.", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "CI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "??A", "level" : "WCH", "name": "Unrecognized watch", "category": "A", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "CI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "??E", "level" : "ADV", "name": "Unrecognized emergency", "category": "E", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "CI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "??S", "level" : "ADV", "name": "Unrecognized statement", "category": "S", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "CI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "??W", "level" : "WRN", "name": "Unrecognized warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "CI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "??M", "level" : "ADV", "name": "Unrecognized message", "category": "S", 
+		"description": "",
+		"notes": "TODO: Do we need an 'M' category?", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "CI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "TXB", "level" : "ADV", "name": "Transmitter backup on", "category": "S", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "AB"}, {"country": "MX", "type" : "NA" } ]
+	},
+	{ 
+		"key": "TXF", "level" : "ADV", "name": "Transmitter carrier off", "category": "S", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "AB"}, {"country": "MX", "type" : "NA" } ]
+	},
+	{ 
+		"key": "TXO", "level" : "ADV", "name": "Transmitter carrier on", "category": "S", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "AB"}, {"country": "MX", "type" : "NA" } ]
+	},
+	{ 
+		"key": "VOW", "level" : "WRN", "name": "Tsunami warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O1"}, {"country": "CA", "type" : "TS"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "WSA", "level" : "", "name": "", "category": "", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : ""}, {"country": "CA", "type" : ""}, {"country": "MX", "type" : "" } ]
+	},
+	{ 
+		"key": "WSW", "level" : "", "name": "", "category": "", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : ""}, {"country": "CA", "type" : ""}, {"country": "MX", "type" : "" } ]
+	},
+	{ 
+		"key": "??A", "level" : "", "name": "", "category": "", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : ""}, {"country": "CA", "type" : ""}, {"country": "MX", "type" : "" } ]
+	},
+	{ 
+		"key": "??E", "level" : "", "name": "", "category": "", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : ""}, {"country": "CA", "type" : ""}, {"country": "MX", "type" : "" } ]
+	},
+	{ 
+		"key": "??S", "level" : "", "name": "", "category": "", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : ""}, {"country": "CA", "type" : ""}, {"country": "MX", "type" : "" } ]
+	},
+	{ 
+		"key": "??W", "level" : "", "name": "", "category": "", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : ""}, {"country": "CA", "type" : ""}, {"country": "MX", "type" : "" } ]
+	},
+	{ 
+		"key": "??M", "level" : "", "name": "", "category": "", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : ""}, {"country": "CA", "type" : ""}, {"country": "MX", "type" : "" } ]
+	},
+	{ 
+		"key": "TXB", "level" : "ADV", "name": "Transmitter backup on", "category": "S", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "AB"}, {"country": "MX", "type" : "NA" } ]
+	},
+	{ 
+		"key": "TXF", "level" : "ADV", "name": "Transmitter carrier off", "category": "S", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "AB"}, {"country": "MX", "type" : "NA" } ]
+	},
+	{ 
+		"key": "TXO", "level" : "ADV", "name": "Transmitter carrier on", "category": "S", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "AB"}, {"country": "MX", "type" : "NA" } ]
+	},
+	{ 
+		"key": "TXP", "level" : "ADV", "name": "Transmitter primary on", "category": "S", 
+		"description": "",
+		"notes": "",
+		"support": [ { "country": "US", "type" : "O2"}, {"country": "CA", "type" : "AB"}, {"country": "MX", "type" : "NA" } ]
+	},
+	{ 
+		"key": "BHW", "level" : "WRN", "name": "Biological hazard warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "NI"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "BWW", "level" : "WRN", "name": "Boil water warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "NI"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "CHW", "level" : "WRN", "name": "Chemical hazard warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "NI"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "CWW", "level" : "WRN", "name": "Contaminated water warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "NI"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "DBA", "level" : "WCH", "name": "Dam watch", "category": "A", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "NI"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "DBW", "level" : "WRN", "name": "Dam break warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "NI"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "DEW", "level" : "WRN", "name": "Contagious disease warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "NI"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "EVA", "level" : "WCH", "name": "Evacuation watch", "category": "A", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "NI"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "FCW", "level" : "WRN", "name": "Food contamination warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "NI"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "IBW", "level" : "WRN", "name": "Iceberg warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "NI"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "IFW", "level" : "WRN", "name": "Industrial fire warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "NI"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "LSW", "level" : "WRN", "name": "Landslide warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "NI"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "POS", "level" : "ADV", "name": "Power outage statement", "category": "S", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "NI"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "WFA", "level" : "WCH", "name": "Wild fire watch", "category": "A", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "NI"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	},
+	{ 
+		"key": "WFW", "level" : "WRN", "name": "Wild fire warning", "category": "W", 
+		"description": "",
+		"notes": "", 
+		"support": [ { "country": "US", "type" : "NI"}, {"country": "CA", "type" : "FI"}, {"country": "MX", "type" : "NI" } ]
+	}
+]

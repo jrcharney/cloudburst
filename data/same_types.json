@@ -1,0 +1,37 @@
+[
+	{
+		"country" : "US",
+		"types" : [
+			{ "key" : "M",  "value": "Mandatory code", "notes" : "" },
+			{ "key" : "O1", "value": "Original optional code", "notes" : "" },
+			{ "key" : "02", "value": "2002 optional code", "notes" : "" },
+			{ "key" : "03", "value": "2017 optional code", "notes" : "" },
+			{ "key" : "NI", "value": "Not implemented", "notes" : "" },
+			{ "key" : "NA", "value": "Information is not available", "notes" : "" }
+		]
+	},
+	{
+		"country" : "CA",
+		"types" : [
+			{ "key" : "AB", "value": "Administrative bulletin", "notes" : "" },
+			{ "key" : "CI", "value": "Currently implemented", "notes" : "" },
+			{ "key" : "RT", "value": "Required test", "notes" : "" },
+			{ "key" : "FI", "value": "For future implementation", "notes" : "" },
+			{ "key" : "NI", "value": "Not implemented", "notes" : "" },
+			{ "key" : "TS", "value": "Testing for Implementation", "notes" : "" },
+			{ "key" : "NA", "value": "Information is not available", "notes" : "" }
+		]
+	},
+	{
+		"country" : "MX",
+		"types" : [
+			{ "key" : "AB", "value": "Administrative bulletin", "notes" : "" },
+			{ "key" : "CI", "value": "Currently implemented", "notes" : "" },
+			{ "key" : "RT", "value": "Required test", "notes" : "" },
+			{ "key" : "FI", "value": "For future implementation", "notes" : "" },
+			{ "key" : "NI", "value": "Not implemented", "notes" : "" },
+			{ "key" : "TS", "value": "Testing for Implementation", "notes" : "" },
+			{ "key" : "NA", "value": "Information is not available", "notes" : "" }
+		]
+	}
+]

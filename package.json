@@ -1,0 +1,23 @@
+{
+  "name": "cloudburst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-ip": "^1.0.4",
+    "ipinfo": "^1.5.0",
+    "node-fetch": "^2.6.1",
+    "node-geocoder": "^3.27.0",
+    "yargs": "^16.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0"
+  }
+}

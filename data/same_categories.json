@@ -1,0 +1,7 @@
+[
+ { "key" : "W", "category": "Warning",   "description": "An event that alone poses a significant threat to public safety and/or property, probability of occurrence and location is high, and the onset time is relatively short.", "notes": "TOR, SVR, EVI are a few warnings that don't end with W." },
+ { "key" : "A", "category": "Watch",     "description": "Meets the classification of a warning, but either the onset time, probability of occurrence, or location is uncertain.", "notes": "" },
+ { "key" : "E", "category": "Emergency", "description": "An event that, by itself, would not kill or injure or do property damage, but indirectly may cause other things to happen that result in a hazard.", "notes": "Also called an Advisory in many situations." },
+ { "key" : "S", "category": "Statement", "description": "A message containing follow up information to a warning, watch, or emergency.", "notes": "Not all Administratiove messages end with S." },
+ { "key" : "T", "category": "Test",      "description": "Test messages", "notes": "Not an official category." }
+]
