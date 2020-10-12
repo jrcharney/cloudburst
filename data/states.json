@@ -1,0 +1,302 @@
+[
+  {
+    "fips_st": "01",
+    "st": "AL",
+    "state": "Alabama"
+  },
+  {
+    "fips_st": "02",
+    "st": "AK",
+    "state": "Alaska"
+  },
+  {
+    "fips_st": "04",
+    "st": "AZ",
+    "state": "Arizona"
+  },
+  {
+    "fips_st": "05",
+    "st": "AR",
+    "state": "Arkansas"
+  },
+  {
+    "fips_st": "06",
+    "st": "CA",
+    "state": "California"
+  },
+  {
+    "fips_st": "08",
+    "st": "CO",
+    "state": "Colorado"
+  },
+  {
+    "fips_st": "09",
+    "st": "CT",
+    "state": "Connecticut"
+  },
+  {
+    "fips_st": "10",
+    "st": "DE",
+    "state": "Delaware"
+  },
+  {
+    "fips_st": "11",
+    "st": "DC",
+    "state": "District of Columbia"
+  },
+  {
+    "fips_st": "12",
+    "st": "FL",
+    "state": "Florida"
+  },
+  {
+    "fips_st": "13",
+    "st": "GA",
+    "state": "Georgia"
+  },
+  {
+    "fips_st": "15",
+    "st": "HI",
+    "state": "Hawaii"
+  },
+  {
+    "fips_st": "16",
+    "st": "ID",
+    "state": "Idaho"
+  },
+  {
+    "fips_st": "17",
+    "st": "IL",
+    "state": "Illinois"
+  },
+  {
+    "fips_st": "18",
+    "st": "IN",
+    "state": "Indiana"
+  },
+  {
+    "fips_st": "19",
+    "st": "IA",
+    "state": "Iowa"
+  },
+  {
+    "fips_st": "20",
+    "st": "KS",
+    "state": "Kansas"
+  },
+  {
+    "fips_st": "21",
+    "st": "KY",
+    "state": "Kentucky"
+  },
+  {
+    "fips_st": "22",
+    "st": "LA",
+    "state": "Louisiana"
+  },
+  {
+    "fips_st": "23",
+    "st": "ME",
+    "state": "Maine"
+  },
+  {
+    "fips_st": "24",
+    "st": "MD",
+    "state": "Maryland"
+  },
+  {
+    "fips_st": "25",
+    "st": "MA",
+    "state": "Massachusetts"
+  },
+  {
+    "fips_st": "26",
+    "st": "MI",
+    "state": "Michigan"
+  },
+  {
+    "fips_st": "27",
+    "st": "MN",
+    "state": "Minnesota"
+  },
+  {
+    "fips_st": "28",
+    "st": "MS",
+    "state": "Mississippi"
+  },
+  {
+    "fips_st": "29",
+    "st": "MO",
+    "state": "Missouri"
+  },
+  {
+    "fips_st": "30",
+    "st": "MT",
+    "state": "Montana"
+  },
+  {
+    "fips_st": "31",
+    "st": "NE",
+    "state": "Nebraska"
+  },
+  {
+    "fips_st": "32",
+    "st": "NV",
+    "state": "Nevada"
+  },
+  {
+    "fips_st": "33",
+    "st": "NH",
+    "state": "New Hampshire"
+  },
+  {
+    "fips_st": "34",
+    "st": "NJ",
+    "state": "New Jersey"
+  },
+  {
+    "fips_st": "35",
+    "st": "NM",
+    "state": "New Mexico"
+  },
+  {
+    "fips_st": "36",
+    "st": "NY",
+    "state": "New York"
+  },
+  {
+    "fips_st": "37",
+    "st": "NC",
+    "state": "North Carolina"
+  },
+  {
+    "fips_st": "38",
+    "st": "ND",
+    "state": "North Dakota"
+  },
+  {
+    "fips_st": "39",
+    "st": "OH",
+    "state": "Ohio"
+  },
+  {
+    "fips_st": "40",
+    "st": "OK",
+    "state": "Oklahoma"
+  },
+  {
+    "fips_st": "41",
+    "st": "OR",
+    "state": "Oregon"
+  },
+  {
+    "fips_st": "42",
+    "st": "PA",
+    "state": "Pennsylvania"
+  },
+  {
+    "fips_st": "44",
+    "st": "RI",
+    "state": "Rhode Island"
+  },
+  {
+    "fips_st": "45",
+    "st": "SC",
+    "state": "South Carolina"
+  },
+  {
+    "fips_st": "46",
+    "st": "SD",
+    "state": "South Dakota"
+  },
+  {
+    "fips_st": "47",
+    "st": "TN",
+    "state": "Tennessee"
+  },
+  {
+    "fips_st": "48",
+    "st": "TX",
+    "state": "Texas"
+  },
+  {
+    "fips_st": "49",
+    "st": "UT",
+    "state": "Utah"
+  },
+  {
+    "fips_st": "50",
+    "st": "VT",
+    "state": "Vermont"
+  },
+  {
+    "fips_st": "51",
+    "st": "VA",
+    "state": "Virginia"
+  },
+  {
+    "fips_st": "53",
+    "st": "WA",
+    "state": "Washington"
+  },
+  {
+    "fips_st": "54",
+    "st": "WV",
+    "state": "West Virginia"
+  },
+  {
+    "fips_st": "55",
+    "st": "WI",
+    "state": "Wisconsin"
+  },
+  {
+    "fips_st": "56",
+    "st": "WY",
+    "state": "Wyoming"
+  },
+  {
+    "fips_st": "60",
+    "st": "AS",
+    "state": "American Samoa"
+  },
+  {
+    "fips_st": "64",
+    "st": "FM",
+    "state": "Federated States of Micronesia"
+  },
+  {
+    "fips_st": "66",
+    "st": "GU",
+    "state": "Guam"
+  },
+  {
+    "fips_st": "68",
+    "st": "MH",
+    "state": "Marshall Islands"
+  },
+  {
+    "fips_st": "69",
+    "st": "MP",
+    "state": "Commonwealth of the Northern Mariana Islands"
+  },
+  {
+    "fips_st": "70",
+    "st": "PW",
+    "state": "Palau"
+  },
+  {
+    "fips_st": "72",
+    "st": "PR",
+    "state": "Puerto Rico"
+  },
+  {
+    "fips_st": "74",
+    "st": "UM",
+    "state": "U.S. Minor Outlying Islands"
+  },
+  {
+    "fips_st": "78",
+    "st": "VI",
+    "state": "Virgin Islands"
+  }
+]
