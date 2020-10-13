@@ -3,6 +3,7 @@
 //import { pad0, slice } from 'Format.js';
 const { pad0, slice } = require('./Format');
 
+// TODO: Rewrite this class some other timet input/output date info UNIX `date` style.
 class DateTime {
 	constructor(data){ 			// data should be a numerical time stamp  (TODO: Probably should rewrite this in typescript later.)
 		//console.log(data);
@@ -10,6 +11,7 @@ class DateTime {
 		this.datetime = new Date(data * 1000);  // Multiply by 1000 because the time stamp in OWM doesn't include milliseconds
 		//console.log(this.datetime);
 	}
+	// Contrary to what ESLink thinks, there is nothing wrong with our static variables.
 	static weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 	static months   = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 	getDay(size=0){

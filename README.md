@@ -23,11 +23,30 @@ You will need to get a IPInfo token from IPInfo.io and a API token from OpenWeat
 
 ## Use
 
-For a list of options, use the help option `-h`.
-
-TODO: Copy the contents from the `help` function to this file later.
+For a list of options, use the help option `-h` or look at the [Help](doc/help.md) file.
 
 ## FAQ
 
-TODO: Add some questions here later.
+TODO: Add some questions here later...or better yet another file.
+
+
+## Wishlist
+
+> TODO: Make use of that Projects feature in Github and see if I can put this in a Kanban board.
+
+* [ ] Tide Calculator
+* [ ] Moon phases/moon rise/moon set
+* [ ] Eclipse finder (solar and lunar)
+* [ ] Earthquake summary (See what's shaking within a specific radius)
+* [ ] Sunrise and Sunset for other days and locations
+* [ ] Better time zone support and date/time input
+* [ ] METAR style output (single line)
+* [ ] EAS Protocol support (Better warnings, at least in North America.)
+* [ ] Better support for metric.
+* [ ] Tsunami/Volcano check
+* [ ] COLORS!
+* [ ] NOAA Weather Radio Database using JSON. (See [CCL](doc/ccl.md)) 
+* [ ] Some cool [figlet](http://www.figlet.org/) and/or [boxes](https://boxes.thomasjensen.com/) logo
+
+Most of that will be command line and scraping the web.
 

@@ -1,9 +1,10 @@
 // @file cloudburst/index.js
-// These theree aren't used in this module so we can ommit them.
-const env           = require('dotenv').config();  	// Store oure APIKeys and tokens elsewhere
-const fetch         = require('node-fetch'); 	// Node doesn't have 'fetch'. This should fix that!
+// These theree aren't used in this module so we can omit them.
+//const env           = require('dotenv').config();  	// Store oure APIKeys and tokens elsewhere
+//const fetch         = require('node-fetch'); 	// Node doesn't have 'fetch'. This should fix that!
 //const NodeGeocoder  = require('node-geocoder'); 	// We need this to convert a location to latitude and longitude
 const {argv} = require('yargs'); 	// Let's ues some command line input
+
 
 //const express 		= require('express');
 //const sass          = require('node-sass');
@@ -11,7 +12,7 @@ const {argv} = require('yargs'); 	// Let's ues some command line input
 //sass.render({file: '/src/styles/styles.scss'}); 	// TODO: Decide where to put this file
 const Weather             = require('./local/Weather');
 const { getLocationByIP } = require('./local/GeoIP');
-
+const { help }            = require('./local/Help');
 
 // TODO: HTML Mode!
 // TODO: Moon Phases
@@ -28,28 +29,6 @@ const { getLocationByIP } = require('./local/GeoIP');
 // * alerts 	// weather alerts (what we want!)
 let part     = "minutely,hourly,daily"; 	// TODO: Set this part!
 // TODO: JSON Mode (sorta default?) (These will likely be used in our ORM later.
-
-function help(){
-	let ayuda = [
-		`CODEBURST part of LightniNG/Blitz\n`,
-		`Command line weather powered by OpenWeatherMaps.\n`,
-		`USAGE`,
-		`\tnode index.js ["LOCATION"] [ARGS]\n`,
-		`ARGUMENTS`,
-		`\t--ip\t\t\t\tGet location by IP address`,
-		`\t--json\t\t\tJSON output (useful for piping into another app)`,
-		`\t--location="LOCATION"\t\tGet the current observation for a specific location using city and state or Zip Code`,
-		`\t--country=CC\t\t\tGet the weather from a specific country. By default, this is in the United States (US)`,
-		`\t--lang=LANG\t\t\tGet the weather in a specific language. By default, this is in English (en).`,
-		`\t--units=UNITS\t\t\tReport the weather either in standard, metric, or imperial (default)`,
-		`\t--show=[items]\t\t\tShow certain data`,
-		`\t--hide[items]\t\t\tHide certain data that shows by default`,
-		`\t\tcondtions\t\tHide the current weather condtions`,
-		`\t\talerts\t\t\tHide any weather alerts`
-	];
-	console.log(ayuda.join('\n'));
-	// TODO: exclude=""
-}
 
 (async () => {
 //async function geostorm(location){
@@ -90,7 +69,6 @@ function help(){
 				location = await getLocationByIP();
 			} else if(arg === "h"){ // we need to use -h since we can't use --help. Node has reserved that.
 				help();
-				process.exit(); // leave the program with this option
 			} 
 			/*
 			else {
@@ -132,7 +110,7 @@ function help(){
 				coords         : async function(){return await wx.getGeoCoordinates();},
 				weather        : async function(){return await wx.getCurrent();}, 						// remove "current" from exclude
 				raw_alerts     : async function(){return await wx.getAlerts();}, 						// remove "alerts" from exclude 
-				raw_conditions : async function(){return await wx.getCurrentCondtions();}, 				// remove "current" from exclude
+				raw_conditions : async function(){return await wx.getCurrentConditions();}, 			// remove "current" from exclude
 				// print the current weather observation
 				conditions     : async function(){return await wx.getCurrentObservation();}, 			// remove "current" from exclude
 				// print the current wether alerts, add true to show full messages

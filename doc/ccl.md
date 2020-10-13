@@ -2,6 +2,29 @@
 
 **CCL.sh** is a script that turns `CCL.js` into `CCL.json`.
 
+## Short history
+
+In the process of trying to find out how to get all the SAME codes used by NOAA weather radio, 
+I stumbled upon a file that had all the information I was looking for...but it was as JavaScript file.
+So just for fun, and as a courtesy to the most awesome part of the Federal Goverment 
+(which is why Wilbur Ross must be removed before he puts anymore climate change deniers in the Commerce Department!), 
+I decided to reprocess all the data that was in that file into a JSON file.
+The result was much more plesant, but being the person that I am, I wanted to see if I could
+Make this data into a smaller file.
+
+Eventually, I'd like to make a faux-database out of this.
+Even with my fiddling around, I was only able to shave off a few hundred kilobites from a file that is still over 2MB.
+A more scintillating solution still piques my interest.
+
+In the `bin` directory is a Bash script that fetches this information named for the file 
+that I found this data: [ccl.sh](./bin/ccl.sh).
+The information appears to be live as the status of the operations of the radio station likely need to be updated.
+
+I've had fun playing with this file with has over 3000 records in it.
+(I wonder if there is a Zip code database that corresponds with it. (MASH IT UP! `\../. ^_^ .\../`))
+
+<3
+
 ## Columns
 
 | Field       | Type     | Description                                                  | Tables                 | Notes                                                                                     |

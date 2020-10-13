@@ -5,10 +5,12 @@
 const wx_format = {
 	// Temperature format
 	// Because some terminals won't render the degree symbol, an extra setting is added for when we start showing this data in HTML
+	// TODO: See if I can get a degreen sign inserted.
 	tempC   : function(data,html=false){ 			// This is for metric
 		let t = data.toFixed(1);
 		return (html) ? `${t}&deg;C`  : `${t} C `;
 	},
+	// TODO: See if I can get a degreen sign inserted.
 	tempF   : function(data,html=false){ 			// this is for imperial
 		let t = data.toFixed(1);
 		return (html) ? `${t}&deg;F`  : `${t} F `;
@@ -18,6 +20,8 @@ const wx_format = {
 	// Note: hPa = mbar
 	mbar    : function(hPa){return `${hPa} mb`},
 	inHg    : function(hPa){return `${(hPa * 0.030).toFixed(2)} in. Hg`;}, 	// Pressure converted from hPa (a.k.a. mbar) into inches Mercury.
+	// TODO: See if I can get a degreen sign inserted.
+	wind_deg : function(angle){ return angle;},
 	// Thank goodness I wrote this in another app in ruby years ago!
 	wind_dir : function(angle){ // Angle is in degrees
 		let dir = "";
