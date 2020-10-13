@@ -1,0 +1,95 @@
+/* styles.css */
+:root {
+  --bgc    : #333;
+  --fgc    : #fff;
+  --link   : #0ec;
+  --vlink  : #0db;
+  --alink  : #0fd;
+  --hlink  : #0fd;
+  --hbgc   : #0fc;
+  --hfgc   : #fff;
+  --nbgc   : #000;
+  --nfgc   : #fff;
+  /* TODO: colors for nav links */
+  --abgc   : #000;
+  --afgc   : #fff;
+  --shadow : 2px 2px 5px 5px #000;
+}
+
+html { height: 100%; }
+
+body {
+  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  background-color: var(--bgc);
+  color: var(--fgc);
+}
+
+a[href]:link{    color: var(--link); }
+a[href]:visited{ color: var(--vlink); }
+a[href]:active{  color: var(--alink); }
+a[href]:hover{   color: var(--hlink); }
+
+header, nav, main, footer, body > hr {
+  margin-left:  auto;
+  margin-right: auto;
+  max-width:    80%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: var(--shadow);
+}
+
+header {
+  background-color: var(--hbgc);
+  color: var(--hfgc);
+}
+
+nav {
+  background-color: var(--nbgc);
+  color: var(--nfgc);
+}
+
+/* TODO: Dropdown menu later */
+
+nav > ul {}
+
+nav > ul > li {}
+
+main {
+  background-color: none;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+main > article {
+  background-color: var(--abgc);
+  color: var(--afgc);
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: var(--shadow);
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+main > article:first-child {
+ margin-top: 0;
+}
+
+main > article:last-child {
+ margin-bottom: 0;
+}
+
+main > article > p {}
+
+footer {
+  background-color: none;
+}
+
+ul.todolist {}
+ul.todolist > li {}
+ul.todolist > li > input[type="checkbox"] {}
+ul.todolist > li > input[type="checkbox"]:checked {}
