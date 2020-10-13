@@ -51,9 +51,20 @@ nav {
 
 /* TODO: Dropdown menu later */
 
-nav > ul {}
+nav > ul {
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
 
-nav > ul > li {}
+nav > ul > li {
+	display: block;
+	flex: 0 1 auto;
+	list-style-type:none;
+}
 
 main {
   background-color: none;
@@ -90,6 +101,7 @@ footer {
 }
 
 ul.todolist {}
-ul.todolist > li {}
+ul.todolist > li {list-style-type:none;}
 ul.todolist > li > input[type="checkbox"] {}
 ul.todolist > li > input[type="checkbox"]:checked {}
+/* TODO: strike thru text next to the check todo item */
